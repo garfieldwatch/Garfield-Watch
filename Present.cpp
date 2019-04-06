@@ -37,8 +37,8 @@ void WindowDraw() {
 		renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 		texture = SDL_CreateTextureFromSurface(renderer, image);
 
-		int right;
-		int down;
+		int right = 0;
+		int down = 0;
 
 		//MAIN LOOP
 		while (1) {
